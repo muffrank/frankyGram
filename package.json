@@ -1,0 +1,15 @@
+{
+  "name": "frankyGram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:muffrank/frankyGram.git",
+  "author": "Umar Farooq <Qualitybits1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "scss": "sass css/main.scss  style.css --watch"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "sass": "^1.45.1"
+  }
+}
