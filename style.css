@@ -200,6 +200,107 @@ header .mainicons img {
 
 html,
 body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.signup-page {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  margin: 50px auto;
+  padding: 10px 20px;
+  width: 350px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  border-radius: 1px;
+}
+.signup-page .pageimg img {
+  width: 230px;
+}
+.signup-page .pageheading h3 {
+  color: #8e8e8e;
+  font-size: 17px;
+  font-weight: 600px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.signup-page .pageemailinput input {
+  height: 35px;
+  width: 280px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.signup-page .pagefullnameinput input {
+  height: 35px;
+  width: 280px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.signup-page .pageusernameinput input {
+  height: 35px;
+  width: 280px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.signup-page .pagepasswordinput input {
+  height: 35px;
+  width: 280px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.signup-page .pageloginbutton button {
+  height: 35px;
+  width: 280px;
+  background-color: #b2dffc;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.signup-page .pagepara p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #8e8e9c;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.pagefooter {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  margin: -40px auto;
+  padding-top: 17px;
+  width: 350px;
+  height: 75px;
+}
+.pagefooter p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+.pagefooter a {
+  color: blue;
+  text-decoration: none;
+}
+
+html,
+body {
   padding: 0;
   margin: 0;
 }
