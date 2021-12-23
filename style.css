@@ -1,3 +1,203 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f6f6f6;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #c3c1c1;
+  background-color: white;
+}
+header .mainlogo {
+  max-width: 300px;
+  width: 100%;
+}
+header .mainlogo img {
+  width: auto;
+  height: 40px;
+  align-self: center;
+  margin-top: 10px;
+}
+header .maininput {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  padding-left: 45px;
+}
+header .maininput input {
+  outline: none;
+  background-color: #efefef;
+  border: none;
+  width: 264px;
+  height: 35px;
+  border-radius: 9px;
+  padding-left: 20px;
+}
+header .mainicons {
+  width: 100%;
+  max-width: 350px;
+  padding-left: 50px;
+}
+header .mainicons img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.section-1 {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 60px 250px 0px 250px;
+  max-width: 995px;
+}
+.section-1 .user-image {
+  width: auto;
+  text-align: end;
+  padding: 19px 0px 0px 123px;
+}
+.section-1 .user-image img {
+  width: 170px;
+  height: 170px;
+}
+.section-1 .user-data {
+  margin-top: 36px;
+  width: auto;
+  padding-left: 20%;
+}
+.section-1 .user-data .user-data-l1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+}
+.section-1 .user-data .user-data-l1 h3 {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-size: 28px;
+  line-height: 32px;
+  padding: 0px;
+  margin: 0px;
+}
+.section-1 .user-data .user-data-l1 button {
+  background-color: #0095f6;
+  border: none;
+  margin-left: 53px;
+  width: 93px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  outline: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+}
+.section-1 .user-data .user-data-l1 i {
+  margin: 0px 12px;
+  color: white;
+  background-color: #0095f6;
+  padding: 1px 10px;
+  border: 1 px solid rgba(var(--d69, 0, 149, 246), 1);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  outline: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.section-1 .user-data .user-data-l2 {
+  margin: 22px 0px;
+}
+.section-1 .user-data .user-data-l2 .l2-span {
+  padding-right: 20px;
+}
+.section-1 .user-data .user-data-l2 .l2-span span {
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 5px;
+}
+.section-1 .user-data .user-data-l3 p {
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.section-2 {
+  margin: 0 auto;
+  max-width: 995px;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #e2e2e2;
+}
+.section-2 .section-2-content,
+.section-2 .section-2-content-2,
+.section-2 .section-2-content-3 {
+  display: none;
+}
+.section-2 .section-2-header {
+  width: 100%;
+  height: 53px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}
+.section-2 .section-2-header #s2h {
+  border-top: 1px solid black;
+}
+.section-2 .section-2-header .s2h {
+  padding: 19px 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.section-2 .section-2-header .s2h .s2h-icon {
+  padding-right: 7px;
+}
+.section-2 .section-2-content img {
+  width: 290px;
+  height: 290px;
+  margin: 15px;
+  cursor: pointer;
+}
+.section-2 .section-2-content-2 video {
+  width: 290px;
+  height: 290px;
+  margin: 15px;
+  cursor: pointer;
+}
+.section-2 .section-2-content-3 img {
+  width: 290px;
+  height: 290px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.show {
+  display: block !important;
+}
+
 html,
 body {
   margin: 0;
@@ -107,10 +307,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-p {
-  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

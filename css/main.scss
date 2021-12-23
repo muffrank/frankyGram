@@ -2,7 +2,7 @@
 @import "login";
 @import "signup";
 @import "dashboard";
-
+@import "profile";
 html,
 body {
   padding: 0;
@@ -11,8 +11,4 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-p {
-  color:red;
 }
